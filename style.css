@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.kontenjer {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+/*BOX-1*/
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 27px;
+  color: hsl(236, 13%, 42%);
+  transition: 0.5s;
+}
+li:hover {
+  color: hsl(5, 85%, 63%);
+  transition: 0.4s;
+}

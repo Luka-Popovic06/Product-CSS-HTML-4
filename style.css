@@ -119,3 +119,40 @@ h1 {
   transition: 0.4s;
 }
 /*BOX-3*/
+.box-3 {
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  grid-template-rows: 140px;
+  margin-bottom: 50px;
+  justify-content: center;
+  column-gap: 23px;
+}
+.old-slike {
+  width: 120px;
+  height: 120px;
+}
+.box-3-1 {
+  display: flex;
+  gap: 20px;
+}
+.h3-1 {
+  color: hsl(233, 8%, 79%);
+  font-size: 30px;
+  margin-bottom: 9px;
+}
+.box-3-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 19px;
+}
+.box-3-link:hover {
+  color: hsl(5, 85%, 63%);
+  transition: 0.3s;
+}
+.p-1-1 {
+  margin-top: 10px;
+  color: hsl(236, 13%, 42%);
+  font-size: 14px;
+  line-height: 1.5;
+}
